@@ -22,8 +22,6 @@
       UndefineProperties="TargetFramework"
       Private="false"
       Condition="'$(BuildNodeJS)' != 'false' and '$(BuildingInsideVisualStudio)' != 'true'" />
-
-    <SuppressBaselineReference Include="Microsoft.AspNetCore.Components.WebAssembly.HttpHandler" />
   </ItemGroup>
 
   <ItemGroup>
